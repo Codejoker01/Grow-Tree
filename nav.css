@@ -82,8 +82,63 @@ ul li:hover.dropdown ul{
 .bg{
     
     background-image: url(him.jpg);
+    /* background-image: url(wp2777561.jpg);
+    background-image: url(mashobra-1-1024x576.jpg); */
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    background-size: 100% 100%;
+    height: 82vh;
     border-radius: 4px;
+    animation: slider 15s infinite linear;
+}
+@keyframes slider{
+    0%{background-image: url(him.jpg);}
+
+    35%{background-image: url(wp2777561.jpg);}
+
+    75%{background-image: url(mashobra-1-1024x576.jpg);}
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    color: rgb(10, 114, 105);
+}
+p{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.welcome{
+    margin-bottom: 240px;
+     
+     
+}
+.i1{
+    
+    float: left;
+    width: 70vh;
+    height: 50vh;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    color: rgb(228, 126, 206);
+}
+.i2{
+    
+    float: right;
+    width: 70vh;
+    height: 50vh;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+h3{
+    text-align:left;
+    font-size: 30px;
+    margin-top: 15px;
+    color: rgb(169, 30, 37);
 }
