@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -7,21 +7,25 @@
 
 
 }
-body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: azure;
 
 }
-nav{
+
+nav {
     top: 0px;
     position: sticky;
-    background:#FFFFFF;
+    background: #FFFFFF;
     height: 65px;
     width: 100%;
-    border: 1px  solid #1995AD;
+    border: 1px solid #1995AD;
     border-radius: 8px;
-}    
-label.logo{
-    color:#2C5F2D;
+}
+
+label.logo {
+    color: #2C5F2D;
     font-size: 45px;
     line-height: 65px;
     /* padding: 0 10px; */
@@ -29,58 +33,66 @@ label.logo{
     padding-left: 10px;
 
 }
-span.last{
-    color:#97BC62;
-    
+
+span.last {
+    color: #97BC62;
+
 }
 
-nav ul{
+nav ul {
     float: right;
     margin-right: 20px;
 
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     line-height: 60px;
     margin: 0 5px;
     position: relative;
 }
-nav ul li a{
-    color:  #2F3C7E;
+
+nav ul li a {
+    color: #2F3C7E;
     font-size: 19px;
     padding: 7px 15px;
     border-radius: 3px;
     /* text-transform: uppercase; */
 }
-a:hover{
+
+a:hover {
     background: #F1F1F2;
     transition: 1s;
 
 }
-.dropdown{
+
+.dropdown {
     display: none;
 }
-ul li:hover .dropdown{
-    display:block;
+
+ul li:hover .dropdown {
+    display: block;
     position: absolute;
     left: 0;
     top: 100%;
     background-color: #FFFFFF;
     padding: 0px;
-     
-    
+
+
 }
-ul li:hover.dropdown ul{
+
+ul li:hover.dropdown ul {
     display: block;
-     
+
 }
+
 /* ul li :hover.dropdown ul li{
     padding: 0px;
     
 
 } */
-.bg{
-    
+.bg {
+
     background-image: url(him.jpg);
     /* background-image: url(wp2777561.jpg);
     background-image: url(mashobra-1-1024x576.jpg); */
@@ -90,54 +102,100 @@ ul li:hover.dropdown ul{
     border-radius: 4px;
     animation: slider 15s infinite linear;
 }
-@keyframes slider{
-    0%{background-image: url(him.jpg);}
 
-    35%{background-image: url(wp2777561.jpg);}
+@keyframes slider {
+    0% {
+        background-image: url(him.jpg);
+    }
 
-    75%{background-image: url(mashobra-1-1024x576.jpg);}
+    35% {
+        background-image: url(wp2777561.jpg);
+    }
+
+    75% {
+        background-image: url(mashobra-1-1024x576.jpg);
+    }
 }
-h1{
+
+h1 {
     text-align: center;
     font-size: 40px;
     margin-top: 40px;
     color: rgb(10, 114, 105);
 }
-p{
+
+p {
     font-size: 25px;
     margin-top: 20px;
 }
-.welcome{
-    margin-bottom: 240px;
-     
-     
+
+.welcome {
+    width: 100%;
+    height: 100%;
 }
-.i1{
-    
-    float: left;
-    width: 70vh;
-    height: 50vh;
-    margin-top: 20px;
-    margin-right: 20px;
-    border-radius: 10px;
+
+h1 {
+    text-align: center;
 }
-h2{
+
+/* .i1 {
+    display:flexbox;
+    flex:auto;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 20px;
+    padding: 20px;
+} */
+
+.welcome-child .i1 img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 30px;
+
+    border-radius: 10px !important;
+}
+
+.welcome.p1 {
+    justify-content: right;
+
+
+}
+
+.welcome-child {
+    display: flex;
+    justify-content: space-around;
+    gap: 105px;
+    padding: 35px;
+}
+
+h2 {
     text-align: center;
     font-size: 40px;
     margin-top: 40px;
-    color: rgb(228, 126, 206);
+    color: rgb(197, 119, 45);
 }
-.i2{
-    
-    float: right;
-    width: 70vh;
-    height: 50vh;
-    margin-top: 20px;
-    margin-right: 20px;
+
+.welcome2 {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+.i2 img {
+    width: 500px;
+    height: 400px;
+    margin-top: 35px;
     border-radius: 10px;
 }
-h3{
-    text-align:left;
+
+h3 {
+    text-align: left;
     font-size: 30px;
     margin-top: 15px;
     color: rgb(169, 30, 37);
