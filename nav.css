@@ -200,3 +200,83 @@ h3 {
     margin-top: 15px;
     color: rgb(169, 30, 37);
 }
+
+/* ========parallax effect code ========== */
+.section-parallax {
+    background-image: url('/Grow-Tree/assets/nature3.jpg');
+    background-size: 100%;
+    min-height: 250px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    transition: all 0.7s linear;
+    text-align: center;
+}
+
+.section-parallax .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #231d14;
+    opacity: 0.5;
+}
+
+.parallax-container {
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.parallax-contact {
+    display: flex;
+    gap: 10px;
+    width: 400px;
+    justify-content: center;
+}
+
+.parallax-contact .input-wrap {
+    background: linear-gradient(to right, #e08000, #ea0000);
+    width: 62%;
+    height: 37px;
+    padding: 8px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.input-wrap input {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    height: 32px;
+    padding: 8px;
+    color: #222;
+    font-size: 14px;
+    background: #f2dccc;
+
+}
+
+
+
+.connect-btn {
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.parallax-heading {
+    color: #e08000;
+    padding-top: 25px;
+}
+
+.parallax-content {
+    color: #ffff;
+}
